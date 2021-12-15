@@ -6,6 +6,6 @@ let cube = 0;
 
 // definisco in un ciclo for l'operazione da svolgere
 for (let i = 1; i <= num; i++) {
-    cube = i * i *i;
+    cube = i * i * i;
     console.log(cube);
 }
