@@ -8,8 +8,16 @@ let n;
 do {
     n = parseInt(prompt('Inserisci un numero'));
     numList.push(n);
-    for (let i = 0; i < numList.length; i++) {
-        sum += numList[i];   
-        console.log(sum);
-    }
+    sum += numList[numList.length - 1];   
+    console.log(sum);
 } while (sum < 50);
+
+// -----------oppure-----------
+// let i = 0;
+// do {
+//     n = parseInt(prompt('Inserisci un numero'));
+//     numList.push(n);
+//     sum += numList[i];   
+//     console.log(sum);
+//     i++
+// } while (sum < 50);
